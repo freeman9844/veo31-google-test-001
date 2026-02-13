@@ -1,5 +1,7 @@
 # Veo 3.1 4K 비디오 생성 및 확장 데모
 
+[English Version](README.en.md)
+
 이 프로젝트는 Google Cloud Vertex AI의 **Veo 3.1** 모델을 사용하여 4K 해상도의 비디오를 생성하고, 생성된 비디오를 다시 4K 해상도로 확장(Extension)하는 Python 예제 코드입니다.
 
 ## 주요 기능
@@ -117,6 +119,3 @@ Extended Video URI: gs://your-bucket-name/.../sample_0.mp4
 -   **원인**: API 호출 할당량(Quota)을 초과했을 때 발생합니다.
 -   **해결 방법**: 스크립트에 포함된 지수 백오프 로직이 자동으로 재시도합니다. 만약 계속 실패한다면 GCP 콘솔에서 Quota를 확인하고 상향 요청해야 합니다.
 
-## 라이선스
-
-This project is licensed under the MIT License.
